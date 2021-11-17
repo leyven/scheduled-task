@@ -28,7 +28,6 @@ public class SpringBootSchedulerComponent {
 	@Scheduled(cron = "@hourly")
 	@Scheduled(cron = "0 0 3 * * *", zone = "America/Mexico_City")
 	public void scheduleFixedRateWithInitialDelayTask() {
-
 		TimeUtilery.printTime();
 		log.info("spring-boot scheduled using fixedDelay and initialDelay");
 	}

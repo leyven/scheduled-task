@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
 	                .end();
 	        
 	        from(String.format("cron:tab?schedule=%s",testCron))
-	        .setBody().constant("camel using  cron ")
+	        .setBody().constant("camel using  cron")
 	        .log("${body}");
 
 

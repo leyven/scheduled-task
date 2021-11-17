@@ -22,13 +22,11 @@ public class SchedulerActions {
 
 	public void task2() {
 		TimeUtilery.printTime();
-
 		log.info("camel starting task 2 using scheduler");
 	}
 
 	public void task3() {
 		TimeUtilery.printTime();
-
 		log.info("camel starting task 3 using cron component");
 	}
 }
